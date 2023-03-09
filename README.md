@@ -1,6 +1,6 @@
 # Post automatically to Instagram
 Script that programatically creates images based on input text and scheduling in google sheets. Posting to Instagram is done using selenium and the latelysocial.com service.  
-Deployed with GCP and Docker
+Deployed with GCP and Docker.
 
 >Will currently not work due to changes to latelysocial's web UI.
 >Likely fix is to edit selenium sequence for login page.
