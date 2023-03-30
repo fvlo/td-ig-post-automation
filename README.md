@@ -22,7 +22,4 @@ Note that docker versions of files are slightly different:
 - igpost_orchestrator is .py and not notebook-format
 
 ### Deployed to GCP
-- Deployed to project [td-ig-post-automation](https://console.cloud.google.com/home/dashboard?project=td-ig-post-automation)
-- Docker image [on GCP container registry](https://console.cloud.google.com/gcr/images/td-ig-post-automation/GLOBAL?project=td-ig-post-automation) with command  `gcloud builds submit --tag gcr.io/td-ig-post-automation/td_ig_post_automation_w_sleep`
-- Docker image deployed to [Cloud Run](https://console.cloud.google.com/run?project=td-ig-post-automation) and triggered daily at 15:09 Helsinki time from [Cloud Scheduler](https://console.cloud.google.com/cloudscheduler?project=td-ig-post-automation) using Service account [igpost-scheduler](https://console.cloud.google.com/iam-admin/serviceaccounts?project=td-ig-post-automation)
-- Cloud scheduler throughs error but script is run as expected
+*GCP project deleted*
